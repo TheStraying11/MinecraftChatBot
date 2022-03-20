@@ -154,7 +154,7 @@ local commands = {
         end,
         desc = "&a{command}: replies with a joke, ({command} number gives specific joke [between 1 and 1534])",
         permissionLevel = "user"
-    }
+    },
 	toggleInput = {
 		func = function(user)
 			userinput =  (not userinput)
